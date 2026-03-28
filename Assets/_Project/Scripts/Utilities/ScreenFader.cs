@@ -2,63 +2,8 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class ScreenFader : MonoBehaviour
+public class ScreenFader : GenericSingleton<ScreenFader>
 {
-    #region Singleton declaration
-    private static ScreenFader _instance;
-    private static bool _isApplicationQuitting = false;
-
-    public static ScreenFader Instance 
-    { 
-        get 
-        {
-            if (_isApplicationQuitting) return null;
-
-            CreateOrGetInstance();
-            return _instance; 
-        } 
-    }
-
-    private void Awake()
-    {
-        if (_instance == null)
-        {
-            _instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else if (_instance != this)
-        {
-            Destroy(gameObject);
-        }
-    }
-
-    private static void CreateOrGetInstance()
-    {
-        if (_instance == null)
-        {
-            _instance = FindAnyObjectByType<ScreenFader>(FindObjectsInactive.Include);
-            if(_instance == null)
-            {
-                ScreenFader prefab = Resources.Load<ScreenFader>("Singletons/Screen Fader Canvas");
-                _instance = Instantiate(prefab);
-            }
-            DontDestroyOnLoad(_instance.gameObject);
-        }
-    }
-
-    private void OnApplicationQuit()
-    {
-        _isApplicationQuitting = true;
-    }
-
-    private void OnDestroy()
-    {
-        if (_instance == this)
-        {
-            _instance = null;
-        }
-    }
-    #endregion
 
     [SerializeField] private CanvasGroup _canvasGroup;
     [SerializeField] private float _fadeTime = 5f;

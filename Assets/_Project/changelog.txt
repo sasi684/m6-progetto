@@ -30,3 +30,4 @@ New Features:
 	Emissive Materials:
 		-	The bullets are now bright red
 		-	The lava in Level 2 is now bright orange
+
