@@ -12,12 +12,24 @@ public class UI_VictoryScreen : MonoBehaviour
 
     public void OnClickPlayAgain() // Restart from the beginning
     {
-        SceneManager.LoadScene("Level 1");
+        ScreenFader.Instance.StartFadeToOpaque(ChangeSceneToLevel);
     }
 
     public void OnClickMainMenu() // Go back to main menu
     {
+        ScreenFader.Instance.StartFadeToOpaque(ChangeSceneToMainMenu);
+    }
+
+    private void ChangeSceneToLevel()
+    {
+        SceneManager.LoadScene("Level 1");
+        ScreenFader.Instance.StartFadeToTransparent();
+    }
+
+    private void ChangeSceneToMainMenu()
+    {
         SceneManager.LoadScene("Main Menu");
+        ScreenFader.Instance.StartFadeToTransparent();
     }
 
 }

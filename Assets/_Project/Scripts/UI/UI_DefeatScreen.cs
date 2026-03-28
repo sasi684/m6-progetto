@@ -12,12 +12,24 @@ public class UI_DefeatScreen : MonoBehaviour
 
     public void OnClickPlayAgain() // Load the level where you last lost
     {
-        SceneManager.LoadScene(PlayerPrefs.GetInt("PreviousScene"));
+        ScreenFader.Instance.StartFadeToOpaque(ChangeSceneToPrevious);
     }
 
     public void OnClickMainMenu() // Go back to main menu
     {
+        ScreenFader.Instance.StartFadeToOpaque(ChangeSceneToMainMenu);
+    }
+
+    private void ChangeSceneToMainMenu()
+    {
         SceneManager.LoadScene("Main Menu");
+        ScreenFader.Instance.StartFadeToTransparent();
+    }
+
+    private void ChangeSceneToPrevious()
+    {
+        SceneManager.LoadScene(PlayerPrefs.GetInt("PreviousScene"));
+        ScreenFader.Instance.StartFadeToTransparent();
     }
 
 }

@@ -21,10 +21,16 @@ public class LifeController : MonoBehaviour
 
         if (_currentHP <= 0)
         {
-            SceneManager.LoadScene("Defeat Scene");
+            ScreenFader.Instance.StartFadeToOpaque(ChangeSceneToDefeat);
         }
 
         _onHealthchanged.Invoke(_currentHP, _maxHP); // Update the UI
+    }
+
+    private void ChangeSceneToDefeat()
+    {
+        SceneManager.LoadScene("Defeat Scene");
+        ScreenFader.Instance.StartFadeToTransparent();
     }
 
 }

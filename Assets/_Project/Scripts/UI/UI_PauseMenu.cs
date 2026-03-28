@@ -12,7 +12,7 @@ public class UI_PauseMenu : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !_pauseMenuPanel.activeSelf)
+        if (Input.GetKeyDown(KeyCode.Escape) && !_pauseMenuPanel.activeSelf && !ScreenFader.Instance.IsFading)
         {
             _mouseSens = PlayerPrefs.GetFloat("MouseSensitivity"); // Store the current value for the sensitivity
 
@@ -30,13 +30,10 @@ public class UI_PauseMenu : MonoBehaviour
     public void OnClickResumeGame() // Hide the pause menu, hide and lock the cursor and reset the mouse sensitivity to the previous value
     {
         _pauseMenuPanel.SetActive(false);
-        Time.timeScale = 1;
-
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        PlayerPrefs.SetFloat("MouseSensitivity", _mouseSens);
-        _onSensitivityChange.Invoke(_mouseSens);
+        UnlockGame();
     }
 
     public void OnClickOptions() // Show the options panel
@@ -46,6 +43,20 @@ public class UI_PauseMenu : MonoBehaviour
 
     public void OnClickMainMenu() // Load the main menu scene
     {
+        UnlockGame();
+        ScreenFader.Instance.StartFadeToOpaque(ChangeSceneToMainMenu);
+    }
+
+    private void ChangeSceneToMainMenu()
+    {
         SceneManager.LoadScene("Main Menu");
+        ScreenFader.Instance.StartFadeToTransparent();
+    }
+
+    private void UnlockGame()
+    {
+        Time.timeScale = 1;
+        PlayerPrefs.SetFloat("MouseSensitivity", _mouseSens);
+        _onSensitivityChange.Invoke(_mouseSens);
     }
 }

@@ -29,8 +29,14 @@ public class UnlockDoor : MonoBehaviour
         if (_isOpen && collision.collider.TryGetComponent<PlayerController>(out var player))
         {
             int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
-            SceneManager.LoadScene(nextSceneIndex);
+            ScreenFader.Instance.StartFadeToOpaque(ChangeSceneToNext);
         }
+    }
+
+    private void ChangeSceneToNext()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        ScreenFader.Instance.StartFadeToTransparent();
     }
 
 }

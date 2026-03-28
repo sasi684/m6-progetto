@@ -7,7 +7,7 @@ public class UI_MainMenu : MonoBehaviour
 
     public void OnClickStartGame() // Load the first level
     {
-        SceneManager.LoadScene("Level 1");
+        ScreenFader.Instance.StartFadeToOpaque(ChangeSceneToLevel);
     }
 
     public void OnClickOptions() // Open the options panel
@@ -19,6 +19,12 @@ public class UI_MainMenu : MonoBehaviour
     {
         Debug.Log("Sei uscito dal gioco");
         Application.Quit();
+    }
+
+    private void ChangeSceneToLevel()
+    {
+        SceneManager.LoadScene("Level 1");
+        ScreenFader.Instance.StartFadeToTransparent();
     }
 
 }

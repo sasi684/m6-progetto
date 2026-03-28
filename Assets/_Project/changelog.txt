@@ -24,3 +24,6 @@ New Features:
 		Add particles VFX
 		Add lighting
 		Change skybox
+		
+	ScreenFader:
+		-	Added a ScreenFader singleton to fade between scenes
