@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6767612331437866554}
   - component: {fileID: 3588587067867950995}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Audio Source
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,7 +138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113262644513750754}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: CameraPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8463874109762709393}
   - component: {fileID: 4094854936766970277}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
   IsGrounded: 0
 --- !u!1 &7227739003194215825
 GameObject:
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 5188120821178326821}
   - component: {fileID: 4304852509322842572}
   - component: {fileID: 9108159715841095856}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}

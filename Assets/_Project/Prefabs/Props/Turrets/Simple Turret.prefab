@@ -1818,6 +1818,6 @@ MonoBehaviour:
   _range: 25
   _layerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 128
   _bullet: {fileID: 3039653123849176565, guid: f9315b265d2a2d8438d61439e9422cc8, type: 3}
   _fireRate: 2

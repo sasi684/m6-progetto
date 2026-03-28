@@ -209,6 +209,11 @@ PrefabInstance:
       objectReference: {fileID: 644191126}
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
+      propertyPath: m_VersionIndex
+      value: 1440
+      objectReference: {fileID: 0}
+    - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
       propertyPath: m_SelectedEdges.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -226,12 +231,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 436036737}
+      objectReference: {fileID: 644191126}
     - target: {fileID: 7615572574138785634, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 951822943}
+      objectReference: {fileID: 842430614}
     - target: {fileID: 7917936654738880503, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
@@ -242,6 +247,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 842430614}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -734,7 +744,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 95577511}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: --- PROBUILDER ---
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1183,7 +1193,7 @@ GameObject:
   - component: {fileID: 219625868}
   - component: {fileID: 219625867}
   - component: {fileID: 219625866}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2693,18 +2703,8 @@ PrefabInstance:
       objectReference: {fileID: 1957618290}
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
-      propertyPath: m_SelectedEdges.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
-        type: 3}
-      propertyPath: m_SelectedFaces.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
-        type: 3}
-      propertyPath: m_SelectedVertices.Array.size
-      value: 7
+      propertyPath: m_VersionIndex
+      value: 1440
       objectReference: {fileID: 0}
     - target: {fileID: 7364522293509582672, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
@@ -2726,6 +2726,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 998601263}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3670,7 +3675,7 @@ GameObject:
   - component: {fileID: 358675221}
   - component: {fileID: 358675220}
   - component: {fileID: 358675219}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6061,7 +6066,7 @@ GameObject:
   - component: {fileID: 597206906}
   - component: {fileID: 597206905}
   - component: {fileID: 597206904}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6488,7 +6493,7 @@ GameObject:
   - component: {fileID: 611949510}
   - component: {fileID: 611949509}
   - component: {fileID: 611949508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7481,7 +7486,7 @@ GameObject:
   - component: {fileID: 618263780}
   - component: {fileID: 618263779}
   - component: {fileID: 618263778}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8005,7 +8010,7 @@ GameObject:
   - component: {fileID: 684297037}
   - component: {fileID: 684297036}
   - component: {fileID: 684297035}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8502,7 +8507,7 @@ GameObject:
   - component: {fileID: 719622024}
   - component: {fileID: 719622023}
   - component: {fileID: 719622022}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8990,6 +8995,11 @@ PrefabInstance:
       objectReference: {fileID: 1050501916}
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
+      propertyPath: m_VersionIndex
+      value: 1440
+      objectReference: {fileID: 0}
+    - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
       propertyPath: m_SelectedEdges.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -9007,12 +9017,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1957618290}
+      objectReference: {fileID: 1050501916}
     - target: {fileID: 7615572574138785634, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 998601263}
+      objectReference: {fileID: 1206677505}
     - target: {fileID: 7917936654738880503, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
@@ -9023,6 +9033,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1206677505}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9042,7 +9057,7 @@ GameObject:
   - component: {fileID: 764320809}
   - component: {fileID: 764320808}
   - component: {fileID: 764320807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10053,7 +10068,7 @@ PrefabInstance:
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1446
+      value: 1449
       objectReference: {fileID: 0}
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
@@ -10184,12 +10199,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1501091009}
+      objectReference: {fileID: 1194136831}
     - target: {fileID: 7615572574138785634, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 418169142}
+      objectReference: {fileID: 120442934}
     - target: {fileID: 7917936654738880503, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
@@ -10200,6 +10215,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 120442934}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11018,6 +11038,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 92139071}
+    - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1440
+      objectReference: {fileID: 0}
     - target: {fileID: 7364522293509582672, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
@@ -11038,6 +11063,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 319493438}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11446,6 +11476,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 395690887}
+    - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1440
+      objectReference: {fileID: 0}
     - target: {fileID: 7364522293509582672, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
@@ -11466,6 +11501,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 311365495}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11876,6 +11916,11 @@ PrefabInstance:
       objectReference: {fileID: 486431781}
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
+      propertyPath: m_VersionIndex
+      value: 1440
+      objectReference: {fileID: 0}
+    - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
       propertyPath: m_SelectedEdges.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -11893,12 +11938,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 644191126}
+      objectReference: {fileID: 486431781}
     - target: {fileID: 7615572574138785634, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 842430614}
+      objectReference: {fileID: 1935411028}
     - target: {fileID: 7917936654738880503, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
@@ -11909,6 +11954,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1935411028}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11996,7 +12046,7 @@ PrefabInstance:
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1446
+      value: 1449
       objectReference: {fileID: 0}
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
@@ -12143,6 +12193,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 418169142}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13039,7 +13094,7 @@ GameObject:
   - component: {fileID: 1160673745}
   - component: {fileID: 1160673744}
   - component: {fileID: 1160673743}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Turret Stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14691,6 +14746,11 @@ PrefabInstance:
       objectReference: {fileID: 268474612}
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
+      propertyPath: m_VersionIndex
+      value: 1440
+      objectReference: {fileID: 0}
+    - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
       propertyPath: m_SelectedEdges.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -14708,12 +14768,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 486431781}
+      objectReference: {fileID: 268474612}
     - target: {fileID: 7615572574138785634, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1935411028}
+      objectReference: {fileID: 1217720789}
     - target: {fileID: 7917936654738880503, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
@@ -14724,6 +14784,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1217720789}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14984,7 +15049,7 @@ GameObject:
   - component: {fileID: 1308366994}
   - component: {fileID: 1308366993}
   - component: {fileID: 1308366992}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16784,7 +16849,7 @@ GameObject:
   - component: {fileID: 1467287821}
   - component: {fileID: 1467287820}
   - component: {fileID: 1467287819}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21227,7 +21292,7 @@ GameObject:
   - component: {fileID: 1489170524}
   - component: {fileID: 1489170523}
   - component: {fileID: 1489170522}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21910,7 +21975,7 @@ GameObject:
   - component: {fileID: 1504120295}
   - component: {fileID: 1504120294}
   - component: {fileID: 1504120293}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23315,7 +23380,7 @@ GameObject:
   - component: {fileID: 1534720845}
   - component: {fileID: 1534720844}
   - component: {fileID: 1534720843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23998,7 +24063,7 @@ GameObject:
   - component: {fileID: 1580284367}
   - component: {fileID: 1580284365}
   - component: {fileID: 1580284370}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25472,6 +25537,11 @@ PrefabInstance:
       objectReference: {fileID: 436036737}
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
+      propertyPath: m_VersionIndex
+      value: 1440
+      objectReference: {fileID: 0}
+    - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
       propertyPath: m_SelectedEdges.Array.size
       value: 7
       objectReference: {fileID: 0}
@@ -25489,12 +25559,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1957618290}
+      objectReference: {fileID: 436036737}
     - target: {fileID: 7615572574138785634, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 998601263}
+      objectReference: {fileID: 951822943}
     - target: {fileID: 7917936654738880503, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
@@ -25505,6 +25575,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 951822943}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25592,7 +25667,7 @@ PrefabInstance:
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1446
+      value: 1449
       objectReference: {fileID: 0}
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
@@ -25723,12 +25798,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1194136831}
+      objectReference: {fileID: 1098761712}
     - target: {fileID: 7615572574138785634, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 120442934}
+      objectReference: {fileID: 1578835480}
     - target: {fileID: 7917936654738880503, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
@@ -25739,6 +25814,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1578835480}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25929,7 +26009,7 @@ GameObject:
   - component: {fileID: 1747009653}
   - component: {fileID: 1747009652}
   - component: {fileID: 1747009657}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26680,7 +26760,7 @@ PrefabInstance:
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1446
+      value: 1449
       objectReference: {fileID: 0}
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
@@ -26811,12 +26891,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1501091009}
+      objectReference: {fileID: 22593976}
     - target: {fileID: 7615572574138785634, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 418169142}
+      objectReference: {fileID: 1051435666}
     - target: {fileID: 7917936654738880503, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
@@ -26827,6 +26907,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1051435666}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26858,7 +26943,7 @@ GameObject:
   - component: {fileID: 1914015172}
   - component: {fileID: 1914015171}
   - component: {fileID: 1914015170}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27273,7 +27358,7 @@ PrefabInstance:
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1446
+      value: 1449
       objectReference: {fileID: 0}
     - target: {fileID: 5034512395748470490, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
@@ -27404,12 +27489,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 22593976}
+      objectReference: {fileID: 1729981947}
     - target: {fileID: 7615572574138785634, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1051435666}
+      objectReference: {fileID: 1542194145}
     - target: {fileID: 7917936654738880503, guid: fe0bf2eff31413f45a2993d20517acb3,
         type: 3}
       propertyPath: m_Mesh
@@ -27420,6 +27505,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1542194145}
+    - target: {fileID: 8045318914729180312, guid: fe0bf2eff31413f45a2993d20517acb3,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27775,7 +27865,7 @@ GameObject:
   - component: {fileID: 1998627555}
   - component: {fileID: 1998627554}
   - component: {fileID: 1998627559}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28128,7 +28218,7 @@ GameObject:
   - component: {fileID: 2002516889}
   - component: {fileID: 2002516888}
   - component: {fileID: 2002516887}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29712,7 +29802,7 @@ GameObject:
   - component: {fileID: 2087362096}
   - component: {fileID: 2087362094}
   - component: {fileID: 2087362099}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30422,6 +30512,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 4086918679565057905, guid: bd6b75207fbab4d43ad7ba62a64a995e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5440771254827069253, guid: bd6b75207fbab4d43ad7ba62a64a995e,
         type: 3}
       propertyPath: m_Pivot.x
@@ -30571,6 +30666,11 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 2192
       objectReference: {fileID: 0}
+    - target: {fileID: 5451087702959884422, guid: cd2f581ccc7b7674e928493e824f5ec2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5739176930768793288, guid: cd2f581ccc7b7674e928493e824f5ec2,
         type: 3}
       propertyPath: m_Mesh
@@ -30585,6 +30685,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Final Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 8023467427722210178, guid: cd2f581ccc7b7674e928493e824f5ec2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8451843039082708082, guid: cd2f581ccc7b7674e928493e824f5ec2,
         type: 3}

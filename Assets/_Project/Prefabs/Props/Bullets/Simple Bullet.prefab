@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4f4462dc23f4a944294590e239464e63, type: 2}
+  - {fileID: 2100000, guid: b71ec5293aab7ea4db06537f9a31c561, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -121,19 +121,3 @@ MonoBehaviour:
   _damage: 20
   _bulletDuration: 2
   _bulletSpeed: 20
-  _onBulletHit:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9108159715841095856, guid: 17ff6f15116119047aeddcf2023aaf7a,
-          type: 3}
-        m_TargetAssemblyTypeName: PlayerSFX, Assembly-CSharp
-        m_MethodName: PlayHurtSound
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
