@@ -13,7 +13,7 @@ public class CoinSimple : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if(collision.TryGetComponent<PlayerController>(out var player)) // If the player touches the coin, add a coin to the counter
+        if(collision.CompareTag("Player")) // If the player touches the coin, add a coin to the counter
         {
             _coinManager.AddCoinToCounter();
             Destroy(gameObject);

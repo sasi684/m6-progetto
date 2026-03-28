@@ -11,7 +11,7 @@ public class UI_StaminaController : MonoBehaviour
     public void UpdateStaminaBar(float currentStamina, int maxStamina) // Update the stamina bar and text in the UI using an Unity Event
     {
         _staminaBar.fillAmount = currentStamina / maxStamina;
-        _staminaText.text = $"ENERGY {(int)currentStamina}/{maxStamina}";
+        _staminaText.SetText($"ENERGY {(int)currentStamina}/{maxStamina}");
     }
 
 }

@@ -17,7 +17,7 @@ public class CoinExtraTime : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if(collision.TryGetComponent<PlayerController>(out var player)) // If the player touches the coin, add a coin to the counter and add extra time to the timer
+        if(collision.CompareTag("Player")) // If the player touches the coin, add a coin to the counter and add extra time to the timer
         {
             _timer.AddTime(_extraTime);
             _coinManager.AddCoinToCounter();

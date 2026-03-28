@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 9108159715841095856}
   m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -385,7 +385,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UI_LifeController, Assembly-CSharp
-        m_MethodName: UpdateHealthBar
+        m_MethodName: 
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -414,7 +414,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UI_StaminaController, Assembly-CSharp
-        m_MethodName: UpdateStaminaBar
+        m_MethodName: 
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -437,5 +437,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hurtSound: {fileID: 8300000, guid: 68845005bdcb9c745aa7ae27fdf84509, type: 3}
-  _deathSound: {fileID: 8300000, guid: 08a7e84c000c00e4e9b323d8bca2a56f, type: 3}
   _audio: {fileID: 3588587067867950995}

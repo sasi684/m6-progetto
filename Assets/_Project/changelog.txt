@@ -1,0 +1,26 @@
+Refactoring:
+
+	Timer:
+		-	Changed data type from float to int to _currentTimeLeft(and to all other references)
+		-	In the script UI_Timer changed .text with the method .SetText()
+		
+	Stamina:
+		-	Stamina consuming while holding LShift and not moving fixed
+		-	In the script UI_StaminaController changed .text with the method .SetText()
+		
+	Coins:
+		-	In the TriggerEnter changed TryGetComponent with CompareTag
+		-	In the script UI_CoinsCounter changed .text with the method .SetText()
+		
+	LifeController:
+		-	In the script UI_LifeController changed .text with the method .SetText()
+		
+New Features:
+
+	TODO:
+		Add a ScreenFader singleton
+		Add a Cinemachine
+		Add a SaveSystem singleton
+		Add particles VFX
+		Add lighting
+		Change skybox
