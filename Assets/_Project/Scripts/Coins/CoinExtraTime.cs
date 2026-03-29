@@ -29,7 +29,7 @@ public class CoinExtraTime : MonoBehaviour
             _pickUpParticles.Play();
             gameObject.GetComponent<MeshRenderer>().enabled = false;
 
-            Destroy(gameObject);
+            Destroy(gameObject,1f);
         }
     }
 

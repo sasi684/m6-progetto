@@ -18,11 +18,8 @@ Refactoring:
 	CoinManager:
 		-	Changed the Unity Event with an Action
 
-New Features:
 
-	TODO:
-		Add lighting
-		Change skybox
+New Features:
 		
 	ScreenFader:
 		-	Added a ScreenFader singleton to fade between scenes
@@ -34,3 +31,6 @@ New Features:
 
 	Coins:
 		-	Added particles VFX on Pickup
+
+	Lighting:
+		-	Lighting changed to a more orange/yellow color with a gradient
