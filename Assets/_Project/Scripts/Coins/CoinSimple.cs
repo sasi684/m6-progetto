@@ -2,13 +2,15 @@ using UnityEngine;
 
 public class CoinSimple : MonoBehaviour
 {
-
+    private ParticleSystem _pickUpParticles;
     private CoinManager _coinManager;
 
     private void Awake()
     {
         _coinManager = FindAnyObjectByType<CoinManager>();
         _coinManager.AddCoinToTotal(); // Add the coin to the total coins in the level
+
+        _pickUpParticles = GetComponent<ParticleSystem>();
     }
 
     private void OnTriggerEnter(Collider collision)
@@ -16,7 +18,11 @@ public class CoinSimple : MonoBehaviour
         if(collision.CompareTag("Player")) // If the player touches the coin, add a coin to the counter
         {
             _coinManager.AddCoinToCounter();
-            Destroy(gameObject);
+
+            _pickUpParticles.Play();
+            gameObject.GetComponent<MeshRenderer>().enabled = false;
+
+            Destroy(gameObject,1f);
         }
     }
 

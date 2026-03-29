@@ -15,11 +15,12 @@ Refactoring:
 	LifeController:
 		-	In the script UI_LifeController changed .text with the method .SetText()
 		
+	CoinManager:
+		-	Changed the Unity Event with an Action
+
 New Features:
 
 	TODO:
-		Add a SaveSystem singleton
-		Add particles VFX
 		Add lighting
 		Change skybox
 		
@@ -31,3 +32,5 @@ New Features:
 		-	The bullets are now bright red
 		-	The lava in Level 2 is now bright orange
 
+	Coins:
+		-	Added particles VFX on Pickup
